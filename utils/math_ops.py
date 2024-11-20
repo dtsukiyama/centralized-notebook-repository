@@ -1,12 +1,13 @@
+import numpy as np
+
 def add(x, y):
     """
-    Adds two numbers or lists element-wise.
+    Adds two numbers or lists/arrays element-wise.
     """
-    return x + y
-
+    return np.add(x, y)
 
 def multiply(x, y):
     """
-    Multiplies two numbers or lists element-wise.
+    Multiplies two numbers or lists/arrays element-wise.
     """
-    return x * y
+    return np.multiply(x, y)
