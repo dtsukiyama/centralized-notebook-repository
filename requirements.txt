@@ -1,0 +1,6 @@
+black
+nbqa
+jupyter
+pandas
+pytest
+pytest-cov
